@@ -51,17 +51,18 @@ public class Main {
         //Scanner scanner = new Scanner(System.in);
         //System.out.print("Введите количество массивов: "); //ручной ввод с клавиатуры
         //int n = scanner.nextInt();
-        int maxSizeArray = 6, maxElement = 100, n = 5;
+        int maxSizeArray = 30, maxElement = 20, n = 7;
         Random random = new Random();
         List<int []> listArray = new ArrayList<>();
-        int [][] array = new int[n][];
         List<Integer> randomElement = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             int [] tempArray;
             int m = 1 + random.nextInt(maxSizeArray);
-            while (randomElement.contains(m))
-                m =  1 + random.nextInt(maxSizeArray);
-            randomElement.add(m);
+            if(maxSizeArray >= n){
+                while (randomElement.contains(m))
+                    m =  1 + random.nextInt(maxSizeArray);
+                randomElement.add(m);
+            }
             tempArray = new int[m];
             for (int j = 0; j < m; j++)
                 tempArray[j] = random.nextInt(maxElement);
