@@ -1,0 +1,2 @@
+android_educational_center/Main.java
+ android_educational_center.Main
