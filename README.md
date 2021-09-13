@@ -8,7 +8,7 @@
 
 ### Пример 1. Число массивов = 5, максимальная длина случайного массива = 6, максимальное значение элемента = 100.
 
-![image](https://user-images.githubusercontent.com/74682814/133120048-93f04cb8-806d-4f62-8901-78e616be22c6.png)
+![image](https://user-images.githubusercontent.com/74682814/133120048-93f04cb8-806d-4f62-8901-78e616be22c6.png "До сортировки")
 
 ![image](https://user-images.githubusercontent.com/74682814/133120299-82050e23-d52d-4bb7-b649-1f233585fc1a.png)
 
