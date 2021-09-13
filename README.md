@@ -8,7 +8,7 @@
 
 Задание выполнено на java. Достаточно клонировать проект и выполнить его. Все данные заводятся через переменные.
 
-Проект: https://github.com/DameerGamlet/technical-task-heads-x-hands.git
+Проект: git clone https://github.com/DameerGamlet/technical-task-heads-x-hands.git
 
 ## Пример выполнения
 
